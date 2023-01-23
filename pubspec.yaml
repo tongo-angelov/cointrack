@@ -1,0 +1,38 @@
+name: cointrack
+description: Track your crypto portfolio.
+publish_to: "none"
+
+version: 0.2.1+25
+
+environment:
+  sdk: ">=2.18.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  web_socket_channel: ^2.0.0
+  bloc: ^7.0.0
+  flutter_bloc: ^7.0.0
+  rxdart: ^0.26.0
+  nanoid: ^1.0.0
+  fluttertoast: ^8.0.7
+  package_info: ^2.0.0
+  hive: ^2.0.4
+  hive_flutter: ^1.0.0
+  json_annotation: ^4.0.0
+  intl: ^0.17.0
+  http: ^0.13.3
+  cached_network_image: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.12.2
+  hive_generator: ^1.1.0
+  json_serializable: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
